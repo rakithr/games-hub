@@ -12,7 +12,7 @@ const GameGrid = () => {
         column={{ sm: 1, md: 2, lg: 3, xl: 5 }}
         padding="10px"
         spacing={10}
-        templateColumns="repeat(auto-fill, minmax(300px, 1fr))"
+        templateColumns="repeat(auto-fill, minmax(200px, 1fr))"
       >
         {games.map((game) => (
           <GameCard key={game.id} game={game}></GameCard>
