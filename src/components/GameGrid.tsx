@@ -15,7 +15,7 @@ const GameGrid = () => {
         column={{ sm: 1, md: 2, lg: 3, xl: 5 }}
         padding="10px"
         spacing={3}
-        templateColumns="repeat(auto-fill, minmax(200px, 1fr))"
+        templateColumns="repeat(auto-fill, minmax(300px, 1fr))"
       >
         {isLoading &&
           skeletons.map((skeleton) => (
