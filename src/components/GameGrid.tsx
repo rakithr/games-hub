@@ -14,7 +14,7 @@ const GameGrid = () => {
       <SimpleGrid
         column={{ sm: 1, md: 2, lg: 3, xl: 5 }}
         padding="10px"
-        spacing={10}
+        spacing={3}
         templateColumns="repeat(auto-fill, minmax(200px, 1fr))"
       >
         {isLoading &&
